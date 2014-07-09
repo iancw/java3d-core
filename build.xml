@@ -7,12 +7,12 @@
   <property name="gen.dir"       location="${build.dir}/gen"/>
   <property name="class.dir"     location="${build.dir}/classes"/>
 
-  <property name="j3dtools.dir"      location="../j3dutils"/>
+  <property name="j3dtools.dir"      location="../java3d-utils"/>
   <property name="j3dtools.src.dir"  location="${j3dtools.dir}/src"/>
 
   <property name="vecmath.lib"       location="../vecmath/build/jars/vecmath.jar"/>
-  <property name="jogl.lib"          location="../../jogl-v2.0.2/jogl-all.jar"/>
-  <property name="gluegen.lib"       location="../../jogl-v2.0.2/gluegen-rt.jar"/>
+  <property name="jogl.lib"          location="../jogl-all-2.0.jar"/>
+  <property name="gluegen.lib"       location="../gluegen-rt-2.0.jar"/>
   
   <property name="version_base"             value="1.6.0"/>
   <property name="build.spec.title"         value="3D Graphics API for the Java Platform"/>
